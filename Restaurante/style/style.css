@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #26532B; 
+    --cor2: #63e2c6cb;
+    --cor3: #399E5A;
+    --cor4: #21A179;
+    --cor5: #4ebea6b2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    background-color: var(--cor2);
+}
+
+p {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.peixe2 {
+    width: 250px;
+}
+
+body {
+    background-color: var(--cor4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: var(--cor2);
+    border-radius: 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+header > h2 {
+    font-family: "Carattere";
+    transform: translateY(-46px);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: var(--cor5);
+    text-align: right;
+    border-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: 100px;
+    padding: 10px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.267);
+}
+
+nav > a {  
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+section {
+    margin:  auto;
+    background-color: var(--cor2);
+    width: 60%;
+    border-radius: 6px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.267);
+    padding: 10px;
+}
+
+.menu {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+img {
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;   
+}
+
+.peixe {
+    width: 100px;
+    display: inline;
+    text-align: left;
+    margin-left: 5px;
+}
+
+h1 {
+    font-family: "Playwrite CU";
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h2 { 
+    font-family: "Playwrite CU"; 
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p.contato {
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--cor5);
+    margin-top: 300px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+table {
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+    border-spacing: 50px;
+    margin: auto;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ td {
+    padding: 10px;
+}
+
+caption {
+    text-align: center;
+    font-size: 50px;
+}
+
+input[type=text] {
+    width: 750px;
+    height: 150px;
+}
+
+input[type=submit] {
+    width: 50px;
+    height: 30px;
+    background-color: #26532B;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: end;
+}
+
+
